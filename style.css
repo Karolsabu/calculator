@@ -1,0 +1,31 @@
+body{
+padding: 0;
+margin: 0;
+}
+.main-page{
+    display: flex;
+    justify-content: center;
+}
+.button-style{
+    width:15%;
+    height: 40px;
+    border-radius:5rem;
+    background-color: gray;
+    border:none;
+
+}
+.button-content{
+    display: flex;
+    justify-content: space-around;
+}
+.button-style:hover{
+    background-color:rgb(83, 76, 76);
+}
+.content-section{
+    border-radius: 1rem;
+}
+input::placeholder{
+    text-align: end;
+    font-size:3rem
+    
+}
